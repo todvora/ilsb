@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         btn.style.border = "1px solid #ccc";
         btn.style.padding = "3px 5px ";
         btn.style["border-radius"] = "3px";
-        btn.style["padding-right"] = "3px";
+        btn.style["margin-right"] = "3px";
         btn.style["text-decoration"] = "none";
         btn.style.color = "#333";
         btn.style["font-family"] = "'Helvetica Neue',Helvetica,Arial,sans-serif";
