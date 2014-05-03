@@ -54,15 +54,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 .replace("{articleTitle}", encodeURIComponent(articleTitle));
             btn.href = url;
         }
+        btn.target = "_blank";
         btn.style.display = "block";
         btn.style.border = "1px solid #ccc";
-        btn.style.padding = "3px 5px ";
-        btn.style["border-radius"] = "3px";
-        btn.style["margin-right"] = "3px";
-        btn.style["text-decoration"] = "none";
+        btn.style.padding = "3px 5px";
+        btn.style.borderRadius = "3px";
+        btn.style.marginRight = "3px";
+        btn.style.textDecoration = "none";
         btn.style.color = "#333";
-        btn.style["font-family"] = "'Helvetica Neue',Helvetica,Arial,sans-serif";
-        btn.style["font-size"] = "90%";
+        btn.style.fontFamily = "'Helvetica Neue',Helvetica,Arial,sans-serif";
+        btn.style.fontSize = "90%";
         btn.parentNode.style.display = "inline-block";
         btn.parentNode.parentNode.style.margin = "0";
         btn.parentNode.parentNode.style.padding = "0";
