@@ -55,11 +55,14 @@ document.addEventListener("DOMContentLoaded", function (event) {
             btn.href = url;
         }
         btn.style.display = "block";
-        btn.style.border = "1px solid black";
-        btn.style.padding = "5px";
+        btn.style.border = "1px solid #ccc";
+        btn.style.padding = "3px 5px ";
         btn.style["border-radius"] = "3px";
+        btn.style["padding-right"] = "3px";
         btn.style["text-decoration"] = "none";
-        btn.style.color = "black";
+        btn.style.color = "#333";
+        btn.style["font-family"] = "'Helvetica Neue',Helvetica,Arial,sans-serif";
+        btn.style["font-size"] = "90%";
         btn.parentNode.style.display = "inline-block";
         btn.parentNode.parentNode.style.margin = "0";
         btn.parentNode.parentNode.style.padding = "0";
